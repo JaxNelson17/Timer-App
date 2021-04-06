@@ -15,8 +15,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var timerLabel: UILabel!
     @IBAction func UITapGestureRecognize(_ sender: UITapGestureRecognizer) {
     }
-    
-    
 
     var MyTimer = Timer()
     var TimerDisplayed = 0
@@ -52,6 +50,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         minTextField.delegate = self
         maxTextField.delegate = self
         
@@ -74,5 +73,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+    
+
+    
 }
    
