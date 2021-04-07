@@ -148,7 +148,11 @@
                     <connections>
                         <outlet property="maxTextField" destination="GSe-UH-Y1j" id="tCr-Ny-sZv"/>
                         <outlet property="minTextField" destination="Bid-11-39F" id="vl9-Kr-3IL"/>
+                        <outlet property="pauseButton" destination="5ff-pM-JqB" id="qqC-rJ-uId"/>
                         <outlet property="randomGameTimerLabel" destination="AOk-dV-biP" id="Fi3-TM-iuL"/>
+                        <outlet property="resetButton" destination="wFR-YN-82P" id="U8L-To-uxC"/>
+                        <outlet property="startButton" destination="CzL-W2-iZA" id="Ijw-Xf-L3L"/>
+                        <outlet property="stopButton" destination="cnB-fM-tqT" id="emx-Gg-ZFB"/>
                         <outlet property="timerLabel" destination="sI4-nf-cXc" id="2Sg-0N-ol9"/>
                     </connections>
                 </viewController>

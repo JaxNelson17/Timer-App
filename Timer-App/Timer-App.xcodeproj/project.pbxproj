@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A302DD06261E4C4300DFC180 /* LegoYodaDeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A302DD05261E4C4300DFC180 /* LegoYodaDeath.mp3 */; };
 		A35550A7261CF877009ADFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35550A6261CF877009ADFF4 /* AppDelegate.swift */; };
 		A35550A9261CF877009ADFF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35550A8261CF877009ADFF4 /* SceneDelegate.swift */; };
 		A35550AB261CF877009ADFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35550AA261CF877009ADFF4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A302DD05261E4C4300DFC180 /* LegoYodaDeath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = LegoYodaDeath.mp3; path = "/Users/jaxnel17/Sources/iOS/Timer-App/Timer-App/Timer-App/LegoYodaDeath.mp3"; sourceTree = "<absolute>"; };
 		A35550A3261CF877009ADFF4 /* Timer-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35550A6261CF877009ADFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35550A8261CF877009ADFF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,11 +58,11 @@
 		A35550A5261CF877009ADFF4 /* Timer-App */ = {
 			isa = PBXGroup;
 			children = (
-				A35550A6261CF877009ADFF4 /* AppDelegate.swift */,
 				A35550BB261CF88F009ADFF4 /* Supporting Files */,
 				A35550AA261CF877009ADFF4 /* ViewController.swift */,
 				A35550AC261CF877009ADFF4 /* Main.storyboard */,
 				A35550AF261CF877009ADFF4 /* Assets.xcassets */,
+				A302DD05261E4C4300DFC180 /* LegoYodaDeath.mp3 */,
 				A35550B4261CF877009ADFF4 /* Info.plist */,
 			);
 			path = "Timer-App";
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				A35550A8261CF877009ADFF4 /* SceneDelegate.swift */,
+				A35550A6261CF877009ADFF4 /* AppDelegate.swift */,
 				A35550B1261CF877009ADFF4 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -135,6 +138,7 @@
 				A35550B3261CF877009ADFF4 /* LaunchScreen.storyboard in Resources */,
 				A35550B0261CF877009ADFF4 /* Assets.xcassets in Resources */,
 				A35550AE261CF877009ADFF4 /* Main.storyboard in Resources */,
+				A302DD06261E4C4300DFC180 /* LegoYodaDeath.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
