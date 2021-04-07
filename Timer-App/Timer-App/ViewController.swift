@@ -18,10 +18,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     var MyTimer = Timer()
     var TimerDisplayed = 0
-    
+    var seconds = 0
     
     @IBAction func startTimer(_ sender: UIButton) {
         MyTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(Actions), userInfo: nil, repeats: true)
+        seconds = getRandomTime()
+        Actions()
     }
     
     @IBAction func stopButton(_ sender: UIButton) {
@@ -43,8 +45,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @objc func Actions() {
-        TimerDisplayed -= 1
-        timerLabel.text = String(TimerDisplayed)
+        seconds -= 1
+        timerLabel.text = String(seconds)
+        
     }
     
     override func viewDidLoad() {
@@ -53,7 +56,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         minTextField.delegate = self
         maxTextField.delegate = self
-        
+        timerLabel.text = String(getRandomTime())
         configureTapGesture()
     }
     private func configureTapGesture() {
@@ -74,7 +77,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-
+    func getRandomTime() -> Int{
+        if let min = Int(minTextField.text ?? ""), let max = Int(maxTextField.text ?? "") {
+            let randomNum = Int.random(in: min ... max)
+            return randomNum
+        } else {
+            return 0
+        }
+    }
+    
     
 }
    
